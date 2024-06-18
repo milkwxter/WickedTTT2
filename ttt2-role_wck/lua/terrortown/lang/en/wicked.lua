@@ -9,4 +9,4 @@ L["target_" .. WICKED.name] = "Wicked"
 L["ttt2_desc_" .. WICKED.name] = [[The Wicked is able to see whether a player is an innocent or has a special role. It's their goal to prioritize killing innocents and third-party roles who can cause too much trouble for the Traitors.]]
 
 -- OTHER ROLE LANGUAGE STRINGS
-L["label_cv_visible"] = "Percentage of visible player's roles"
+L["label_wck_visible"] = "Percentage of visible player's roles to the Wicked:"
