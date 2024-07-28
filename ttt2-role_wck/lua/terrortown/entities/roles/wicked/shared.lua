@@ -5,7 +5,7 @@ if SERVER then
 end
 
 function ROLE:PreInitialize()
-  self.color = Color(255, 115, 1, 255)
+  self.color = Color(198, 0, 3, 255)
 
   self.abbr = "wck" -- abbreviation
   self.surviveBonus = 0.5 -- bonus multiplier for every survive while another player was killed
@@ -127,7 +127,7 @@ if CLIENT then
 		and ply.wck_specialRole
 		and not ply:IsSpecial()
 		then
-			return Color(255, 115, 1, 100)
+			return Color(73, 255, 253, 100)
 		end
 	end)
 
